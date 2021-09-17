@@ -1,0 +1,21 @@
+### next time try to open folder as a workspace and see if the .vscode will appear
+
+
+
+### create a virtual env
+py -3 -m venv envname
+envname\scripts\activate
+# if error (windows) and then activate again
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+#### git
+# create a .gitignore file to exclude the envname\ folder and other ptivate files
+git init
+git add . && git commit -m "first commit"
+
+# in oredr to remove added files from staging area: git reset HEAD -- .
+
+
+
+#
+
